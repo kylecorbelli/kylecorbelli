@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html ng-app="mainModule">
+
+<head>
+	<title>Kyle Corbelli | Software Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- Custon JS Scripts -->
+	<script src="js/modules/mainModule.js"></script>
+	<script src="js/controllers/mainController.js"></script>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/customStyle.css">
+</head>
+
+<body ng-controller="mainCtrl">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="mainNavbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="hamburgerButton">
+					<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+				</button>
+				<a href="#home" class="navbar-brand">Kyle Corbelli</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="mainContent">
+		<div id="home" class="text-center contentSegment">
+			<div ng-include="'views/home.html'"></div>
+		</div>
+		<div id="about" class="text-center contentSegment">
+			<div ng-include="'views/about.html'"></div>
+		</div>
+		<div id="portfolio" class="contentSegment">
+			<div ng-include="'views/portfolio.html'"></div>
+		</div>
+		<div id="contact" class="contentSegment">
+			<div ng-include="'views/contact.html'"></div>
+		</div>
+	</div>
+</body>
+
+</html>

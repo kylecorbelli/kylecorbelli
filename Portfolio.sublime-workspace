@@ -1,0 +1,779 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"conte",
+				"contentSegmentPositions"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"con",
+				"contentSegmentPositions"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"counter",
+				"counterService"
+			],
+			[
+				"comp",
+				"compileService"
+			],
+			[
+				"filter",
+				"filterInstance"
+			],
+			[
+				"interval",
+				"intervalCounter"
+			],
+			[
+				"mock",
+				"mockScope"
+			],
+			[
+				"log",
+				"logClick"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"editor",
+				"editorView"
+			],
+			[
+				"products",
+				"productsResource"
+			],
+			[
+				"produc",
+				"productElems"
+			],
+			[
+				"input",
+				"inputNumber"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"table",
+				"tableTemplate"
+			],
+			[
+				"item",
+				"itemElement"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"zip",
+				"zipCodeUpdated"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"h1",
+				"h1	Tag"
+			],
+			[
+				"bo",
+				"body	Tag"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"You",
+				"YourHomeTown"
+			],
+			[
+				"mul",
+				"multiplicant2"
+			],
+			[
+				"multi",
+				"multiplicant1"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"Ta",
+				"TaxRate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "kylecorbelli.html",
+			"settings":
+			{
+				"buffer_size": 2678,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "userStories.txt",
+			"settings":
+			{
+				"buffer_size": 1591,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/home.html",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/modules/mainModule.js",
+			"settings":
+			{
+				"buffer_size": 1754,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers/mainController.js",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/contact.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "contact.html"
+			}
+		},
+		{
+			"file": "views/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/about.html",
+			"settings":
+			{
+				"buffer_size": 349,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/customStyle.css",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint Current File"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 188.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolio.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolioServer.js",
+		"/C/Users/Kyle/Documents/nodeStuff/server.js",
+		"/C/Users/Kyle/Documents/nodeStuff/portfolioServer.js",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/userStories.txt",
+		"/C/Users/Kyle/Documents/nodeStuff/unitTestingServer.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/controllerTest.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/firstTest.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/filterTest.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/directiveTest.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/serviceTest.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/app.js",
+		"/C/Users/Kyle/Documents/angularjs/unitTesting/app.html",
+		"/C/Users/Kyle/Documents/angularjs/ngmodules/angular-mocks.js",
+		"/C/Users/Kyle/Documents/angularjs/animate.html",
+		"/C/Users/Kyle/Documents/angularjs/groceries.json",
+		"/C/Users/Kyle/Documents/angularjs/components.html",
+		"/C/Users/Kyle/Documents/angularjs/ngmodules/angular-touch.js",
+		"/C/Users/Kyle/Documents/angularjs/anchorScroll.html",
+		"/C/Users/Kyle/Documents/angularjs/list.html",
+		"/C/Users/Kyle/Documents/angularjs/angular.js",
+		"/C/Users/Kyle/Documents/angularjs/ngmodules/angular-animate.js",
+		"/C/Users/Kyle/Documents/angularjs/editorView.html",
+		"/C/Users/Kyle/Documents/angularjs/tableView.html",
+		"/C/Users/Kyle/Documents/angularjs/productsResource.js",
+		"/C/Users/Kyle/Documents/angularjs/products.html",
+		"/C/Users/Kyle/Documents/angularjs/increment.js",
+		"/C/Users/Kyle/Documents/angularjs/products.js",
+		"/C/Users/Kyle/Documents/angularjs/productData.xml",
+		"/C/Users/Kyle/Documents/angularjs/dummy.xml",
+		"/C/Users/Kyle/Documents/angularjs/promiseGroups.html",
+		"/C/Users/Kyle/Documents/angularjs/promises.html",
+		"/C/Users/Kyle/Documents/angularjs/ajax.html",
+		"/C/Users/Kyle/Documents/angularjs/expressions.html",
+		"/C/Users/Kyle/Documents/angularjs/htmlData.html",
+		"/C/Users/Kyle/Documents/angularjs/nTimes.html",
+		"/C/Users/Kyle/Documents/angularjs/ngmodules/angular-sanitize.js",
+		"/C/Users/Kyle/Documents/angularjs/serviceDirectives.js",
+		"/C/Users/Kyle/Documents/angularjs/domApi.html",
+		"/C/Users/Kyle/Documents/angularjs/serviceExample.html",
+		"/C/Users/Kyle/Documents/angularjs/serviceServices.js",
+		"/C/Users/Kyle/Documents/angularjs/exceptions.html",
+		"/C/Users/Kyle/Documents/angularjs/customForms.html",
+		"/C/Users/Kyle/Documents/angularjs/compileFunction.html",
+		"/C/Users/Kyle/Documents/angularjs/transclude.html",
+		"/C/Users/Kyle/Documents/angularjs/directiveControllers.html",
+		"/C/Users/Kyle/Documents/angularjs/itemTemplate.html",
+		"/C/Users/Kyle/Documents/angularjs/tableTemplate.html",
+		"/C/Users/Kyle/Documents/angularjs/directivesChapterDirectives.js",
+		"/C/Users/Kyle/Documents/angularjs/directivesChapterControllers.js",
+		"/C/Users/Kyle/Documents/angularjs/directivesChapterMainModule.js",
+		"/C/Users/Kyle/Documents/angularjs/directiveScopes.html",
+		"/C/Users/Kyle/Documents/angularjs/directivesChapter.html",
+		"/C/Users/Kyle/Documents/angularjs/jqlite.html",
+		"/C/Users/Kyle/Documents/angularjs/nodeThing.js",
+		"/C/Users/Kyle/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Kyle/Documents/angularjs/directivesChapterDirectives",
+		"/C/Users/Kyle/Documents/angularjs/directiveChapterMainModule.js",
+		"/C/Users/Kyle/Documents/angularjs/directivesChapter.js",
+		"/C/Users/Kyle/Documents/angularjs/filters.css",
+		"/C/Users/Kyle/Documents/angularjs/filtersFilters.js",
+		"/C/Users/Kyle/Documents/angularjs/filtersControllers.js",
+		"/C/Users/Kyle/Documents/angularjs/filtersMainModule.js",
+		"/C/Users/Kyle/Documents/angularjs/filters.html",
+		"/C/Users/Kyle/Documents/angularjs/directives.html",
+		"/C/Users/Kyle/Documents/angularjs/controllers.html",
+		"/C/Users/Kyle/Documents/angularjs/forms.html",
+		"/C/Users/Kyle/Documents/angularjs/table.html",
+		"/C/Users/Kyle/Documents/angularjs/example.html",
+		"/C/Users/Kyle/Documents/angularjs/controllers.js",
+		"/C/Users/Kyle/Documents/angularjs/controllersMainModule.js",
+		"/C/Users/Kyle/Documents/angularjs/controllers.css",
+		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/css/style.css",
+		"/C/Users/Kyle/Documents/angularjs/cities.json",
+		"/C/Users/Kyle/Documents/angularjs/formsControllers.js",
+		"/C/Users/Kyle/Documents/angularjs/formsMainModule.js",
+		"/C/Users/Kyle/Documents/angularjs/forms.css",
+		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/index.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/script.js",
+		"/C/Users/Kyle/AppData/Roaming/Sublime Text 2/Packages/User/JSLint.sublime-settings",
+		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/libs/googleMaps.js",
+		"/C/Users/Kyle/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/js/script.js",
+		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/index.html",
+		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/css/style.css",
+		"/C/Users/Kyle/Google Drive/Web Development/sublimeText.js",
+		"/C/Users/Kyle/Google Drive/Web Development/sublimeText.rb",
+		"/C/Users/Kyle/Google Drive/Web Development/sublimeText.html",
+		"/C/Users/Kyle/Google Drive/MLO/Programming/CSS Practice/Homepage.html",
+		"/C/Users/Kyle/Google Drive/MLO/Programming/Bootstrap Practice/Main.css",
+		"/C/Users/Kyle/Google Drive/MLO/Programming/Bootstrap Practice/Homepage.html",
+		"/C/Users/Kyle/Google Drive/MLO/Programming/CSS Practice/Main.css",
+		"/C/Users/Kyle/Google Drive/MLO/CSS in Sublime.css",
+		"/C/Users/Kyle/Google Drive/MLO/Functions Testing.html",
+		"/C/Users/Kyle/Google Drive/MLO/Programming Practice.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"homeWrapper",
+			".productsResource",
+			"baseurl",
+			"date",
+			"				\n",
+			"td",
+			"expire"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"th",
+			"expiry"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "kylecorbelli.html",
+					"settings":
+					{
+						"buffer_size": 2678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								878,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1767.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "userStories.txt",
+					"settings":
+					{
+						"buffer_size": 1591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 290.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "views/home.html",
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/modules/mainModule.js",
+					"settings":
+					{
+						"buffer_size": 1754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/controllers/mainController.js",
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/contact.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "contact.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/portfolio.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/about.html",
+					"settings":
+					{
+						"buffer_size": 349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/customStyle.css",
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 343.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.303788270059,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 29.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true
+}

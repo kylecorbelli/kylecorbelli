@@ -1,0 +1,61 @@
+body {
+	color: black;
+	font-family: calibri, arial, sans-serif;
+
+}
+
+.navbar-brand {
+	color: #DCD3B9;
+}
+
+#home {
+	border: solid 1px red;
+}
+
+#about {
+	background-image: url("../images/macbook.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: solid 1px blue;
+}
+
+#portfolio {
+	border: solid 1px green;
+}
+
+#contact {
+	border: solid 1px white;
+}
+
+#aboutContent {
+	margin-top: 20%;
+	margin-bottom: auto;
+}
+
+button i {
+	color: black;
+}
+
+.contentSegment {
+	padding: 20px 5px;
+}
+
+.contentSegment p {
+	color: black;
+	font-size: 32px;
+	line-height: 0.95;
+	text-shadow: 0px 0px 6px #F3EBDB;
+}
+
+.socialButton {
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.socialButton:hover {
+	-webkit- box-shadow: 0px 0px 3px 1px white;
+	-moz- box-shadow: 0px 0px 3px 1px white;
+	box-shadow: 0px 0px 3px 1px white;
+}
