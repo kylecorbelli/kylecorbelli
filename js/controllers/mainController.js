@@ -37,6 +37,39 @@ angular.module("mainModule")
 				href: "https://github.com/pacificLiving/"
 			}
 		];
+
+		$scope.projects = [
+			{
+				title: "Words to Live By",
+				url: "http://codepen.io/pacificLiving/full/ZGPeZg/",
+				image: "../images/wordsToLiveBy.png"
+			},
+			{
+				title: "Landing Page",
+				url: "http://landingpage.comyr.com/",
+				image: "../images/wordsToLiveBy.png"
+			},
+			{
+				title: "Words to Live By",
+				url: "http://codepen.io/pacificLiving/full/ZGPeZg/",
+				image: "../images/wordsToLiveBy.png"
+			},
+			{
+				title: "Landing Page",
+				url: "http://landingpage.comyr.com/",
+				image: "../images/wordsToLiveBy.png"
+			},
+			{
+				title: "Words to Live By",
+				url: "http://codepen.io/pacificLiving/full/ZGPeZg/",
+				image: "../images/wordsToLiveBy.png"
+			},
+			{
+				title: "Landing Page",
+				url: "http://landingpage.comyr.com/",
+				image: "../images/wordsToLiveBy.png"
+			}
+		];
 		
 
 	})

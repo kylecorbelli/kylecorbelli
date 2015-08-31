@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"mar",
 				"margin-bottom"
 			],
@@ -171,7 +175,7 @@
 			"file": "kylecorbelli.html",
 			"settings":
 			{
-				"buffer_size": 2678,
+				"buffer_size": 2441,
 				"line_ending": "Windows"
 			}
 		},
@@ -179,7 +183,7 @@
 			"file": "views/home.html",
 			"settings":
 			{
-				"buffer_size": 434,
+				"buffer_size": 378,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,7 +191,7 @@
 			"file": "js/modules/mainModule.js",
 			"settings":
 			{
-				"buffer_size": 1754,
+				"buffer_size": 1730,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,40 +199,7 @@
 			"file": "js/controllers/mainController.js",
 			"settings":
 			{
-				"buffer_size": 84,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/contact.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows",
-				"name": "contact.html"
-			}
-		},
-		{
-			"file": "views/portfolio.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/about.html",
-			"settings":
-			{
-				"buffer_size": 519,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/customStyle.css",
-			"settings":
-			{
-				"buffer_size": 845,
+				"buffer_size": 832,
 				"line_ending": "Windows"
 			}
 		}
@@ -309,12 +280,53 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/css/customStyle.css",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolioServer.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/dist/application.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/init.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/express.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/config.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/env/test.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/env/production.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/env/development.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/config/env/all.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/views/index.server.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/views/layout.server.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/views/500.server.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/views/404.server.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/tests/unit/parseutils.server.model.test.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/tests/functional/restaurant.server.routes.test.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/tests/functional/core.server.routes.test.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/routes/restaurants.server.routes.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/routes/core.server.routes.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/models/parseutils.server.model.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/controllers/restaurants.server.controller.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app/controllers/core.server.controller.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/server.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/karma.conf.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/gruntfile.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/app.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/core/views/footer.client.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/listing/views/filters.client.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/core/views/header.client.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/infrastructure/views/page-modal.client.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/core/controllers/header.client.controller.js",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/listing/views/listing.client.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/modules/core/views/home.client.view.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/myteamquotes/editme.html",
+		"/C/Users/Kyle/Google Drive/Web Development/repos/bitbucketstationlocations/stationlocations.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/about.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/portfolio.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/contact.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/js/controllers/mainController.js",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/js/modules/mainModule.js",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/home.html",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/kylecorbelli.html",
 		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/third.txt",
 		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/second.txt",
 		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/first.txt",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/userStories.txt",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolio.html",
-		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolioServer.js",
 		"/C/Users/Kyle/Documents/nodeStuff/server.js",
 		"/C/Users/Kyle/Documents/nodeStuff/portfolioServer.js",
 		"/C/Users/Kyle/Documents/nodeStuff/unitTestingServer.js",
@@ -395,18 +407,7 @@
 		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/libs/googleMaps.js",
 		"/C/Users/Kyle/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/js/script.js",
-		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/index.html",
-		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/css/style.css",
-		"/C/Users/Kyle/Google Drive/Web Development/sublimeText.js",
-		"/C/Users/Kyle/Google Drive/Web Development/sublimeText.rb",
-		"/C/Users/Kyle/Google Drive/Web Development/sublimeText.html",
-		"/C/Users/Kyle/Google Drive/MLO/Programming/CSS Practice/Homepage.html",
-		"/C/Users/Kyle/Google Drive/MLO/Programming/Bootstrap Practice/Main.css",
-		"/C/Users/Kyle/Google Drive/MLO/Programming/Bootstrap Practice/Homepage.html",
-		"/C/Users/Kyle/Google Drive/MLO/Programming/CSS Practice/Main.css",
-		"/C/Users/Kyle/Google Drive/MLO/CSS in Sublime.css",
-		"/C/Users/Kyle/Google Drive/MLO/Functions Testing.html",
-		"/C/Users/Kyle/Google Drive/MLO/Programming Practice.html"
+		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/index.html"
 	],
 	"find":
 	{
@@ -421,9 +422,14 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"section.id",
+			"InfoBubble",
+			"userDistance",
+			"RestaurantsNear",
+			"core",
 			"homeWrapper",
 			".productsResource",
 			"baseurl",
@@ -450,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -458,15 +464,15 @@
 					"file": "kylecorbelli.html",
 					"settings":
 					{
-						"buffer_size": 2678,
+						"buffer_size": 2441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								878,
-								878
+								2421,
+								2421
 							]
 						],
 						"settings":
@@ -475,31 +481,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9137.0,
+						"translation.y": 502.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 5,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "views/home.html",
 					"settings":
 					{
-						"buffer_size": 434,
+						"buffer_size": 378,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								434,
-								434
+								363,
+								363
 							]
 						],
 						"settings":
@@ -511,21 +511,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 2,
 					"file": "js/modules/mainModule.js",
 					"settings":
 					{
-						"buffer_size": 1754,
+						"buffer_size": 1730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								925,
-								924
+								1047,
+								1047
 							]
 						],
 						"settings":
@@ -534,7 +540,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
+						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -544,15 +550,15 @@
 					"file": "js/controllers/mainController.js",
 					"settings":
 					{
-						"buffer_size": 84,
+						"buffer_size": 832,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								84
+								528,
+								528
 							]
 						],
 						"settings":
@@ -560,113 +566,7 @@
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "views/contact.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "contact.html",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "views/portfolio.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "views/about.html",
-					"settings":
-					{
-						"buffer_size": 519,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								453,
-								453
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 93.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "css/customStyle.css",
-					"settings":
-					{
-						"buffer_size": 845,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								394,
-								394
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 441.0,
+						"translation.y": 197.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -702,7 +602,7 @@
 		"cols":
 		[
 			0.0,
-			0.0810372771475,
+			0.464302135213,
 			1.0
 		],
 		"rows":

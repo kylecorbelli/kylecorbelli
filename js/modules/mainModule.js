@@ -1,7 +1,5 @@
 angular.module("mainModule", []);
 
-
-
 // jQuery... Get this stuff integrated into AngularJS
 $(document).ready(function(){
 
