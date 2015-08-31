@@ -22,6 +22,7 @@
 </head>
 
 <body ng-controller="mainCtrl">
+	<!-- The main navbar: -->>
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="mainNavbar">
 		<div class="container">
 			<div class="navbar-header">
@@ -31,33 +32,24 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 				</button>
-				<a href="#home" class="navbar-brand">Kyle Corbelli</a>
+				<a href="#home" class="navbar-brand navLinks">Kyle Corbelli</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
+				<ul id="navOptions" class="nav navbar-nav">
+					<li ng-repeat="section in contentSections"><a class="navLinks" href="{{'#' + section.id}}">{{section.title}}</a></li>				
 				</ul>
 			</div>
 		</div>
 	</nav>
-
 	<div id="mainContent">
-		<div id="home" class="text-center contentSegment">
-			<div ng-include="'views/home.html'"></div>
+
+		<!-- Content sections: -->
+		<div class="text-center contentSegment" ng-repeat="section in contentSections" id="{{section.id}}">
+			<div ng-include="section.view"></div>
 		</div>
-		<div id="about" class="text-center contentSegment">
-			<div ng-include="'views/about.html'"></div>
-		</div>
-		<div id="portfolio" class="contentSegment">
-			<div ng-include="'views/portfolio.html'"></div>
-		</div>
-		<div id="contact" class="contentSegment">
-			<div ng-include="'views/contact.html'"></div>
-		</div>
+
 	</div>
+
 </body>
 
 </html>

@@ -176,14 +176,6 @@
 			}
 		},
 		{
-			"file": "userStories.txt",
-			"settings":
-			{
-				"buffer_size": 1591,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "views/home.html",
 			"settings":
 			{
@@ -228,7 +220,7 @@
 			"file": "views/about.html",
 			"settings":
 			{
-				"buffer_size": 349,
+				"buffer_size": 519,
 				"line_ending": "Windows"
 			}
 		},
@@ -317,11 +309,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/third.txt",
+		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/second.txt",
+		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/first.txt",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/userStories.txt",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolio.html",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolioServer.js",
 		"/C/Users/Kyle/Documents/nodeStuff/server.js",
 		"/C/Users/Kyle/Documents/nodeStuff/portfolioServer.js",
-		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/userStories.txt",
 		"/C/Users/Kyle/Documents/nodeStuff/unitTestingServer.js",
 		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/controllerTest.js",
 		"/C/Users/Kyle/Documents/angularjs/unitTesting/tests/firstTest.js",
@@ -480,33 +475,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1767.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "userStories.txt",
-					"settings":
-					{
-						"buffer_size": 1591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								782,
-								782
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 290.0,
+						"translation.y": 9137.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -514,11 +483,11 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "views/home.html",
 					"settings":
 					{
@@ -544,7 +513,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "js/modules/mainModule.js",
 					"settings":
 					{
@@ -561,7 +530,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 138.0,
@@ -570,7 +540,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "js/controllers/mainController.js",
 					"settings":
 					{
@@ -596,7 +566,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "views/contact.html",
 					"settings":
 					{
@@ -623,7 +593,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "views/portfolio.html",
 					"settings":
 					{
@@ -649,19 +619,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "views/about.html",
 					"settings":
 					{
-						"buffer_size": 349,
+						"buffer_size": 519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								320,
-								320
+								453,
+								453
 							]
 						],
 						"settings":
@@ -669,13 +639,13 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 93.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "css/customStyle.css",
 					"settings":
 					{
@@ -692,10 +662,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 343.0,
+						"translation.y": 441.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -731,7 +702,7 @@
 		"cols":
 		[
 			0.0,
-			0.303788270059,
+			0.0810372771475,
 			1.0
 		],
 		"rows":
@@ -774,6 +745,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 149.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }

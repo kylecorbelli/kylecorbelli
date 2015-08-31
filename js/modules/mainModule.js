@@ -14,10 +14,10 @@ $(document).ready(function(){
 	});
 
 	// Offsets the main content by adding margin to the top equal to the height of the navbar:
-	$("#mainContent").css("margin-top", $("#mainNavbar").height());
+	//$("#mainContent").css("margin-top", $("#mainNavbar").height());
 
 	// Provides for the click-to-scroll functionality:
-	$("a").on('click', function(event) {
+	$(".navLinks").on('click', function(event) {
     	event.preventDefault();
     	var hash = this.hash;
     	var moveScroll = $(hash).offset().top - $("#mainNavbar").height();
