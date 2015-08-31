@@ -24,7 +24,6 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: moveScroll
         }, 750);
- 		//window.location.hash = hash;
 	});
 
 		// The following was an attempt at scroll and snap:

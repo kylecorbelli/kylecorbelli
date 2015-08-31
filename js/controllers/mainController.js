@@ -22,17 +22,17 @@ angular.module("mainModule")
 
 		$scope.socialIcons = [
 			{
-				id: "linkedin",
+				id: "LinkedIn",
 				faIcon: "fa-linkedin",
 				href: "https://www.linkedin.com/in/kylecorbelli"
 			},
 			{
-				id: "twitter",
+				id: "Twitter",
 				faIcon: "fa-twitter",
 				href: "https://twitter.com/pacific_living"
 			},
 			{
-				id: "github",
+				id: "GitHub",
 				faIcon: "fa-github",
 				href: "https://github.com/pacificLiving/"
 			}

@@ -1,11 +1,10 @@
-<h1 id="theBigHead">Kyle Corbelli | Software Developer</h1>
-<div class="mdl-tooltip" for="theBigHead">Hi there</div>
+<h1>Kyle Corbelli | Software Developer</h1>
 
 <a target="_blank" href="{{social.href}}" ng-repeat="social in socialIcons">
 	<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect socialButton" id="{{social.id}}">
 		<i class="fa {{social.faIcon}}"></i>
 	</button>
-	<div class="mdl-tooltip mdl-tooltip--large" for="linkedin">
-		Some Text
+	<div class="mdl-tooltip mdl-tooltip--large" for="{{social.id}}">
+		{{social.id}}
 	</div>
 </a>
