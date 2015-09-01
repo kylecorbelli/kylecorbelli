@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-to",
+				"border-top-right-radius"
+			],
+			[
+				"border-ra",
+				"border-top-left-radius"
+			],
+			[
 				"text",
 				"text-decoration"
 			],
@@ -24,10 +44,6 @@
 				"contentSegmentPositions"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"back",
 				"background-repeat"
 			],
@@ -38,10 +54,6 @@
 			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"padding",
@@ -144,10 +156,6 @@
 				"body	Tag"
 			],
 			[
-				"border",
-				"border-radius"
-			],
-			[
 				"You",
 				"YourHomeTown"
 			],
@@ -175,7 +183,7 @@
 			"file": "kylecorbelli.html",
 			"settings":
 			{
-				"buffer_size": 2441,
+				"buffer_size": 2608,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +191,23 @@
 			"file": "views/home.html",
 			"settings":
 			{
-				"buffer_size": 378,
+				"buffer_size": 379,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/about.html",
+			"settings":
+			{
+				"buffer_size": 520,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 256,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +215,7 @@
 			"file": "js/modules/mainModule.js",
 			"settings":
 			{
-				"buffer_size": 1730,
+				"buffer_size": 1726,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +223,47 @@
 			"file": "js/controllers/mainController.js",
 			"settings":
 			{
-				"buffer_size": 832,
+				"buffer_size": 2491,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/directives/scrollArrowDirective.js",
+			"settings":
+			{
+				"buffer_size": 273,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/scrollUp.html",
+			"settings":
+			{
+				"buffer_size": 134,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/scrollDown.html",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/customStyle.css",
+			"settings":
+			{
+				"buffer_size": 1970,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Kyle/Google Drive/Web Development/Java Practice/helloWorld.java",
+			"settings":
+			{
+				"buffer_size": 125,
 				"line_ending": "Windows"
 			}
 		}
@@ -425,6 +489,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"border",
+			"navbar",
+			"nav",
+			"margin",
+			"project.id",
 			"section.id",
 			"InfoBubble",
 			"userDistance",
@@ -456,7 +525,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -464,15 +533,15 @@
 					"file": "kylecorbelli.html",
 					"settings":
 					{
-						"buffer_size": 2441,
+						"buffer_size": 2608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2421,
-								2421
+								1466,
+								1466
 							]
 						],
 						"settings":
@@ -481,7 +550,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 502.0,
+						"translation.y": 463.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -491,15 +560,67 @@
 					"file": "views/home.html",
 					"settings":
 					{
-						"buffer_size": 378,
+						"buffer_size": 379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								363,
-								363
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/about.html",
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/portfolio.html",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
 							]
 						],
 						"settings":
@@ -515,23 +636,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "js/modules/mainModule.js",
 					"settings":
 					{
-						"buffer_size": 1730,
+						"buffer_size": 1726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1047,
-								1047
+								33,
+								0
 							]
 						],
 						"settings":
@@ -540,25 +661,52 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 42.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "js/controllers/mainController.js",
 					"settings":
 					{
-						"buffer_size": 832,
+						"buffer_size": 2491,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								528,
-								528
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/directives/scrollArrowDirective.js",
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
 							]
 						],
 						"settings":
@@ -566,7 +714,112 @@
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 197.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/scrollUp.html",
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/scrollDown.html",
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/customStyle.css",
+					"settings":
+					{
+						"buffer_size": 1970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 683.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/Kyle/Google Drive/Web Development/Java Practice/helloWorld.java",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -602,7 +855,7 @@
 		"cols":
 		[
 			0.0,
-			0.464302135213,
+			0.494738346517,
 			1.0
 		],
 		"rows":
@@ -645,6 +898,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 290.0,
 	"status_bar_visible": true
 }
