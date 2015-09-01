@@ -17,12 +17,14 @@
 	<!-- Custon JS Scripts -->
 	<script src="js/modules/mainModule.js"></script>
 	<script src="js/controllers/mainController.js"></script>
+	
+	<script src="js/directives/scrollArrowDirective.js"></script>
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/customStyle.css">
 </head>
 
 <body ng-controller="mainCtrl">
-	<!-- The main navbar: -->>
+	<!-- The main navbar: -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="mainNavbar">
 		<div class="container">
 			<div class="navbar-header">
@@ -41,11 +43,14 @@
 			</div>
 		</div>
 	</nav>
+
 	<div id="mainContent">
 
 		<!-- Content sections: -->
 		<div class="text-center contentSegment" ng-repeat="section in contentSections" id="{{section.id}}">
+			<div ng-include="'views/scrollUp.html'"></div>
 			<div ng-include="section.view"></div>
+			<div ng-include="'views/scrollDown.html'"></div>
 		</div>
 
 	</div>

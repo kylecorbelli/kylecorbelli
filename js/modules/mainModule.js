@@ -4,15 +4,15 @@ angular.module("mainModule", []);
 $(document).ready(function(){
 
 	// On document ready, sets the height of each content segment equal to the height of the browser window minus the height of the navbar:
-	$(".contentSegment").css("height", $(window).height() + 2 * $("#mainNavbar").height());
+	$(".contentSegment").css("min-height", $(window).height() - $("#mainNavbar").height());
 
 	// When the browser window is resized, the content segment height is adjusted once more:
 	$(window).on("resize", function(event) {
-		$(".contentSegment").css("height", $(window).height() + 2 * $("#mainNavbar").height());
+		$(".contentSegment").css("min-height", $(window).height() - $("#mainNavbar").height());
 	});
 
 	// Offsets the main content by adding margin to the top equal to the height of the navbar:
-	//$("#mainContent").css("margin-top", $("#mainNavbar").height());
+	$("#mainContent").css("margin-top", $("#mainNavbar").height());
 
 	// Provides for the click-to-scroll functionality:
 	$(".navLinks").on('click', function(event) {

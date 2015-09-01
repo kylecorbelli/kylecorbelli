@@ -4,12 +4,68 @@ body {
 
 }
 
+nav {
+	margin-bottom: 0px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
 .navbar-brand {
 	color: #DCD3B9;
 }
 
+.bottomScroll {
+	cursor: pointer;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	height: 20px;
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.topScroll {
+	cursor: pointer;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	height: 20px;
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid gray;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.bottomScroll i.fa {
+	font-size: 14px;
+	margin-top: 4px;
+	color: white;
+}
+
+.topScroll i.fa {
+	font-size: 14px;
+	margin-bottom: 40px;
+	color: white;
+}
+
 #home {
-	border: solid 1px red;
 }
 
 #about {
@@ -32,7 +88,6 @@ body {
 }
 
 #contact {
-	border: solid 1px white;
 }
 
 #aboutContent {
@@ -46,6 +101,7 @@ button i {
 
 .contentSegment {
 	padding: 20px 5px;
+	position: relative;
 }
 
 .contentSegment p {
