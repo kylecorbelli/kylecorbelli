@@ -1,6 +1,5 @@
 body {
 	color: black;
-	font-family: calibri, arial, sans-serif;
 
 }
 
@@ -8,12 +7,46 @@ nav {
 	margin-bottom: 0px;
 }
 
-.navbar {
-	margin-bottom: 0px;
+.navbar-brand {
+	font-family: 'Noto Sans', sans-serif;
+	letter-spacing: 0.2em;
 }
 
-.navbar-brand {
-	color: #DCD3B9;
+.navbar-brand:hover {
+	letter-spacing: 0.22em;
+}
+
+h1 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.socBtn {
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+	border-radius: 100%;
+	font-size: 28px;
+	background-color: rgba(255, 255, 255, 0.25);
+	border: 1px solid black;
+	-webkit- box-shadow: 0px 0px 6px 1px black;
+	-moz- box-shadow: 0px 0px 6px 1px black;
+	box-shadow: 0px 0px 6px 1px black;
+}
+
+.socBtn i {
+	color: black;
+}
+
+.socBtn:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 1px solid white;
+	-webkit- box-shadow: 0px 0px 6px 1px white;
+	-moz- box-shadow: 0px 0px 6px 1px white;
+	box-shadow: 0px 0px 6px 1px white;
+}
+
+.socBtn:hover i {
+	color: white;
 }
 
 .bottomScroll {
@@ -24,10 +57,11 @@ nav {
 	width: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: black;
-	border-top: 1px solid white;
-	border-left: 1px solid white;
-	border-right: 1px solid white;
+	margin-bottom: 0px;
+	background-color: #222222;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
@@ -42,15 +76,30 @@ nav {
 	width: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: black;
-	border-bottom: 1px solid white;
-	border-left: 1px solid white;
-	border-right: 1px solid white;
-	border-top: 1px solid gray;
+	margin-top: 0px;
+	background-color: #222222;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	position: absolute;
+	vertical-align: text-top;
 	top: 0px;
 	right: 0px;
 	left: 0px;
+}
+
+.bottomScroll:hover {
+	border: 1px solid white;
+	-webkit- box-shadow: 0px 0px 3px 1px white;
+	-moz- box-shadow: 0px 0px 3px 1px white;
+	box-shadow: 0px 0px 3px 1px white;
+}
+
+.topScroll:hover {
+	border: 1px solid white;
+	-webkit- box-shadow: 0px 0px 3px 1px white;
+	-moz- box-shadow: 0px 0px 3px 1px white;
+	box-shadow: 0px 0px 3px 1px white;
 }
 
 .bottomScroll i.fa {
@@ -60,12 +109,17 @@ nav {
 }
 
 .topScroll i.fa {
+	display: inline-block;
+	padding: 0px;
 	font-size: 14px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	color: white;
 }
 
 #home {
+	background-image: url("../images/oceanOffice-Cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 video#bgvid { 
@@ -84,7 +138,7 @@ video#bgvid {
 }
 
 #about {
-	background-image: url("../images/macbook.jpg");
+	background-image: url("../images/macbook-Cropped.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -103,18 +157,35 @@ video#bgvid {
 }
 
 #contact {
-	background-image: url("../images/macbook.jpg");
+	background-image: url("../images/notepad-Cropped.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #aboutContent {
 	margin-top: 15%;
-	margin-bottom: auto;
+}
+
+.aboutSkip {
+	margin-top: 10%;
+	font-size: 48px;
+	cursor: pointer;
+}
+
+.aboutSkip:hover {
+	color: #222222;
 }
 
 button i {
 	color: black;
+}
+
+.active {
+	color: blue;
+}
+
+.active a {
+	color: blue;
 }
 
 .contentSegment {
@@ -131,19 +202,6 @@ button i {
 	text-shadow: 0px 0px 6px #F3EBDB;
 }
 
-.socialButton {
-	border-radius: 50%;
-	color: white;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.socialButton:hover {
-	-webkit- box-shadow: 0px 0px 3px 1px white;
-	-moz- box-shadow: 0px 0px 3px 1px white;
-	box-shadow: 0px 0px 3px 1px white;
-}
-
 a {
 	color: black;
 }
@@ -152,3 +210,5 @@ a:hover {
 	text-decoration: none;
 	color: black;
 }
+
+

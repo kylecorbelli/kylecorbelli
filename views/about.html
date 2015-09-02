@@ -1,7 +1,7 @@
 <div id="aboutContent">
 	<!-- <p id="prevAbout">{{prevAboutMe}}</p> -->
-	<div class="col-sm-3"></div>
-	<div class="col-sm-6" id="currentAbout">{{currentAboutMe}}</div>
-	<div class="col-sm-3"></div>
+	<div class="col-sm-3 hidden-xs text-right"><i class="fa fa-angle-double-left aboutSkip" ng-click="pauseThenChangeToPrevAboutMe()"></i></div>
+	<div class="col-sm-6" id="currentAbout" ng-swipe-left="pauseThenChangeToNextAboutMe()" ng-swipe-right="pauseThenChangeToPrevAboutMe()">{{currentAboutMe}}</div>
+	<div class="col-sm-3 hidden-xs text-left"><i class="fa fa-angle-double-right aboutSkip" ng-click="pauseThenChangeToNextAboutMe()"></i></div>
 	<!-- <p id="nextAbout">{{nextAboutMe}}</p> -->
 </div>

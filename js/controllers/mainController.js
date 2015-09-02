@@ -1,7 +1,63 @@
 angular.module("mainModule")
-	.controller("mainCtrl", function($scope, $interval) {
+	.controller("mainCtrl", function($scope, $interval, $window) {
 		
+		angular.element(document).ready(function() {
+
+			// On document ready, sets the height of each content segment equal to the height of the browser window minus the height of the navbar:
+			$(".contentSegment").css("min-height", $(window).height() - $("#mainNavbar").height());
+
+			// When the browser window is resized, the content segment height is adjusted once more:
+			angular.element($window).on("resize", function(event) {
+				$(".contentSegment").css("min-height", $(window).height() - $("#mainNavbar").height());
+			});
+
+			// Offsets the main content by adding margin to the top equal to the height of the navbar:
+			$("#mainContent").css("margin-top", $("#mainNavbar").height());
+
+			// Creates an array of all the offset values of the content sections:
+/*			
+			var contentOffsets = $scope.contentSections.map(function(section) {
+				var hash = "#" + section.id;
+				return $(hash).offset().top;
+			});
+
+			// Returns the lowest contentId
+			$scope.contentSections.forEach(function(section) {
+				var hash = "#" + section.id;
+				if($window.pageYOffset >= $(hash).offset().top) {
+					currentContentSectionId = section.id;
+				}
+			});
+
+			angular.element($window).on("scroll", function() {
+				$scope.contentSections.forEach(function(section) {
+					var hash = "#" + section.id;
+					if($window.pageYOffset >= $(hash).offset().top - $("#mainNavbar").height()) {
+						currentContentSectionId = section.id;
+						console.log(currentContentSectionId);
+					}
+				});
+			});
+*/
+
+
+		});
+
 		var currentContentSectionId = "home";
+
+		// Used to set the "active" class to the current contenct selection nav button
+		$scope.activeSection = function(id) {
+			if(id === currentContentSectionId) {
+				return "active";
+			} else {
+				return;
+			}
+		};
+
+
+/*
+		
+*/
 
 		var hamburgerExpanded = false;
 
@@ -11,7 +67,7 @@ angular.module("mainModule")
 				var moveScroll = $(hash).offset().top - $("#mainNavbar").height() + $("#expandedNav").height();
 		        $('html, body').animate({
 		            scrollTop: moveScroll
-		        }, 500);
+		        }, 250);
 				hamburgerExpanded = false;
 				// Scroll to the right spot
 			} else {
@@ -24,6 +80,7 @@ angular.module("mainModule")
 			var hash = "#" + id;
 			if(hash === "#about") {
 				$scope.currentAboutMe = $scope.aboutMe[0];
+				$scope.startInterval();
 			}
 			var moveScroll = $(hash).offset().top - $("#mainNavbar").height();
 	        $('html, body').animate({
@@ -36,6 +93,7 @@ angular.module("mainModule")
 			// When scrolling to the "about" section, restart the slideshow
 			if($scope.contentSections[index + 1].id === "about") {
 				$scope.currentAboutMe = $scope.aboutMe[0];
+				$scope.startInterval();
 			}
 			currentContentSectionId = $scope.contentSections[index + 1].id;
 			var hash = "#" + $scope.contentSections[index + 1].id;
@@ -50,13 +108,14 @@ angular.module("mainModule")
 			// When scrolling to the "about" section, restart the slideshow
 			if($scope.contentSections[index - 1].id === "about") {
 				$scope.currentAboutMe = $scope.aboutMe[0];
+				$scope.startInterval();
 			}
 			currentContentSectionId = $scope.contentSections[index - 1].id;
 			var hash = "#" + $scope.contentSections[index - 1].id;
 			var moveScroll = $(hash).offset().top - $("#mainNavbar").height();
-		        $('html, body').animate({
-		            scrollTop: moveScroll
-	        }, 750);
+	        $('html, body').animate({
+	            scrollTop: moveScroll
+        }, 750);
 		};
 
 
@@ -78,8 +137,13 @@ angular.module("mainModule")
 				id: "portfolio",
 				view: "views/portfolio.html"
 			},
-			{title: "Contact", id: "contact", view: "views/contact.html"}
+			{
+				title: "Contact",
+				id: "contact",
+				view: "views/contact.html"
+			}
 		];
+
 
 		$scope.socialIcons = [
 			{
@@ -153,12 +217,42 @@ angular.module("mainModule")
 		$scope.changeToNextAboutMe = function() {
 			$("#currentAbout").hide()
 			var currentAboutMeIndex = $scope.aboutMe.indexOf($scope.currentAboutMe);
-			$scope.prevAboutMe = $scope.currentAboutMe;
 			$scope.currentAboutMe = $scope.aboutMe[(currentAboutMeIndex + 1) % $scope.aboutMe.length];
-			$scope.nextAboutMe = $scope.aboutMe[(currentAboutMeIndex + 2) % $scope.aboutMe.length];
 			$("#currentAbout").fadeIn(500);
 		};
 
-		$interval($scope.changeToNextAboutMe, 7000);
+		$scope.changeToPrevAboutMe = function() {
+			$("#currentAbout").hide()
+			var currentAboutMeIndex = $scope.aboutMe.indexOf($scope.currentAboutMe);
+			var newAboutMeIndex = currentAboutMeIndex - 1;
+			if(newAboutMeIndex === -1) {
+				newAboutMeIndex = $scope.aboutMe.length - 1;
+			}
+			$scope.currentAboutMe = $scope.aboutMe[(newAboutMeIndex) % $scope.aboutMe.length];
+			$("#currentAbout").fadeIn(500);
+		};
+
+		$scope.pauseThenChangeToNextAboutMe = function() {
+			$scope.stopInterval();
+			$scope.changeToNextAboutMe();
+		};
+
+		$scope.pauseThenChangeToPrevAboutMe = function() {
+			$scope.stopInterval();
+			$scope.changeToPrevAboutMe();
+		};
+
+		var intervalPromise;
+
+		$scope.startInterval = function() {
+			$scope.stopInterval();
+			intervalPromise = $interval($scope.changeToNextAboutMe, 4500);
+		};
+
+		$scope.stopInterval = function() {
+			$interval.cancel(intervalPromise);
+		}
+
+		$scope.startInterval();
 
 	});

@@ -4,15 +4,17 @@
 
 <head>
 	<title>Kyle Corbelli | Software Developer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://bootswatch.com/cosmo/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.4.4/angular-touch.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<!-- Custon JS Scripts -->
 	<script src="js/modules/mainModule.js"></script>
@@ -25,7 +27,7 @@
 
 <body ng-controller="mainCtrl">
 	<!-- The main navbar: -->
-	<nav class="navbar navbar-inverse navbar-fixed-top" id="mainNavbar">
+	<nav class="navbar navbar-default navbar-fixed-top" id="mainNavbar">
 		<div class="container">
 			<div class="navbar-header">
 				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#expandedNav" aria-expanded="false" id="hamburgerButton" ng-click="expandOrContractHamburger()">
@@ -38,7 +40,7 @@
 			</div>
 			<div class="collapse navbar-collapse navbar-right" id="expandedNav">
 				<ul id="navOptions" class="nav navbar-nav">
-					<li ng-repeat="section in contentSections"><a class="navLinks" href="" ng-click="scrollToSection(section.id)">{{section.title}}</a></li>				
+					<li ng-repeat="section in contentSections" ng-class="activeSection(section.id)"><a class="navLinks" href="" ng-click="scrollToSection(section.id)">{{section.title}}</a></li>				
 				</ul>
 			</div>
 		</div>
