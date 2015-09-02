@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"curren",
+				"currentContentSectionId"
+			],
+			[
+				"curre",
+				"currentContentSectionId"
+			],
+			[
+				"ha",
+				"hamburgerExpanded"
+			],
+			[
+				"re",
+				"re	require"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"fav",
+				"favMovie"
+			],
+			[
+				"current",
+				"currentAboutMeIndex"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
 				"border",
 				"border-top"
 			],
@@ -46,10 +78,6 @@
 			[
 				"back",
 				"background-repeat"
-			],
-			[
-				"background",
-				"background-size"
 			],
 			[
 				"marg",
@@ -183,7 +211,7 @@
 			"file": "kylecorbelli.html",
 			"settings":
 			{
-				"buffer_size": 2608,
+				"buffer_size": 2662,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +219,7 @@
 			"file": "views/home.html",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 560,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +227,7 @@
 			"file": "views/about.html",
 			"settings":
 			{
-				"buffer_size": 520,
+				"buffer_size": 252,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +243,7 @@
 			"file": "js/modules/mainModule.js",
 			"settings":
 			{
-				"buffer_size": 1726,
+				"buffer_size": 1735,
 				"line_ending": "Windows"
 			}
 		},
@@ -223,7 +251,7 @@
 			"file": "js/controllers/mainController.js",
 			"settings":
 			{
-				"buffer_size": 2491,
+				"buffer_size": 4954,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,7 +283,7 @@
 			"file": "css/customStyle.css",
 			"settings":
 			{
-				"buffer_size": 1970,
+				"buffer_size": 2491,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,9 +299,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 287.0,
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -285,10 +317,6 @@
 			[
 				"remove",
 				"Package Control: Remove Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -344,6 +372,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/rachael.js",
+		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/kyle.js",
+		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/movies.js",
+		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/server.js",
+		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/app.js",
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/js/modules/mainModule.js",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/css/customStyle.css",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/portfolioServer.js",
 		"/C/Users/Kyle/Google Drive/Web Development/repos/humaneeatingresponsiveweb-kylec/public/dist/application.js",
@@ -383,7 +417,6 @@
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/portfolio.html",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/contact.html",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/js/controllers/mainController.js",
-		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/js/modules/mainModule.js",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/views/home.html",
 		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/kylecorbelli.html",
 		"/C/Users/Kyle/Google Drive/Web Development/gitPractice/third.txt",
@@ -466,12 +499,7 @@
 		"/C/Users/Kyle/Documents/angularjs/formsMainModule.js",
 		"/C/Users/Kyle/Documents/angularjs/forms.css",
 		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/index.html",
-		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/script.js",
-		"/C/Users/Kyle/AppData/Roaming/Sublime Text 2/Packages/User/JSLint.sublime-settings",
-		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/libs/googleMaps.js",
-		"/C/Users/Kyle/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/js/script.js",
-		"/C/Users/Kyle/Google Drive/Web Development/StandardWebApplication/public_html/index.html"
+		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/script.js"
 	],
 	"find":
 	{
@@ -489,6 +517,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$scope.currentContentSectionId",
+			"$scope.hamburgerExpanded",
+			"gray",
 			"border",
 			"navbar",
 			"nav",
@@ -513,6 +544,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"currentContentSectionId",
+			"hamburgerExpanded",
 			"th",
 			"expiry"
 		],
@@ -533,15 +566,15 @@
 					"file": "kylecorbelli.html",
 					"settings":
 					{
-						"buffer_size": 2608,
+						"buffer_size": 2662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1466,
-								1466
+								1639,
+								1639
 							]
 						],
 						"settings":
@@ -550,7 +583,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 463.0,
+						"translation.y": 826.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -560,15 +593,15 @@
 					"file": "views/home.html",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 560,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								159,
+								159
 							]
 						],
 						"settings":
@@ -586,15 +619,15 @@
 					"file": "views/about.html",
 					"settings":
 					{
-						"buffer_size": 520,
+						"buffer_size": 252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								512,
-								512
+								123,
+								123
 							]
 						],
 						"settings":
@@ -632,27 +665,21 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 5,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 4,
 					"file": "js/modules/mainModule.js",
 					"settings":
 					{
-						"buffer_size": 1726,
+						"buffer_size": 1735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33,
-								0
+								1057,
+								1057
 							]
 						],
 						"settings":
@@ -661,34 +688,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 145.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 5,
 					"file": "js/controllers/mainController.js",
 					"settings":
 					{
-						"buffer_size": 2491,
+						"buffer_size": 4954,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								553,
-								553
+								1750,
+								1750
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 271.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -711,7 +745,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -776,15 +811,15 @@
 					"file": "css/customStyle.css",
 					"settings":
 					{
-						"buffer_size": 1970,
+						"buffer_size": 2491,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1008,
-								1008
+								1852,
+								1852
 							]
 						],
 						"settings":
@@ -793,7 +828,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 683.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -855,7 +890,7 @@
 		"cols":
 		[
 			0.0,
-			0.494738346517,
+			0.424452468724,
 			1.0
 		],
 		"rows":
@@ -898,6 +933,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 290.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }

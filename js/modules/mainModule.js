@@ -14,7 +14,9 @@ $(document).ready(function(){
 	// Offsets the main content by adding margin to the top equal to the height of the navbar:
 	$("#mainContent").css("margin-top", $("#mainNavbar").height());
 
+
 	// Provides for the click-to-scroll functionality:
+	/*
 	$(".navLinks").on('click', function(event) {
     	event.preventDefault();
     	var hash = this.hash;
@@ -23,6 +25,7 @@ $(document).ready(function(){
             scrollTop: moveScroll
         }, 750);
 	});
+	*/
 
 		// The following was an attempt at scroll and snap:
 /*

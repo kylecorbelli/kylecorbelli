@@ -28,17 +28,17 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="mainNavbar">
 		<div class="container">
 			<div class="navbar-header">
-				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="hamburgerButton">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#expandedNav" aria-expanded="false" id="hamburgerButton" ng-click="expandOrContractHamburger()">
 					<span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 				</button>
-				<a href="#home" class="navbar-brand navLinks">Kyle Corbelli</a>
+				<a class="navbar-brand navLinks" href="" ng-click="scrollToSection('home')">Kyle Corbelli</a>
 			</div>
-			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+			<div class="collapse navbar-collapse navbar-right" id="expandedNav">
 				<ul id="navOptions" class="nav navbar-nav">
-					<li ng-repeat="section in contentSections"><a class="navLinks" href="{{'#' + section.id}}">{{section.title}}</a></li>				
+					<li ng-repeat="section in contentSections"><a class="navLinks" href="" ng-click="scrollToSection(section.id)">{{section.title}}</a></li>				
 				</ul>
 			</div>
 		</div>
