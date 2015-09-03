@@ -4,6 +4,8 @@ angular.module("mainModule")
 		angular.element(document).ready(function() {
 
 			// On document ready, sets the height of each content segment equal to the height of the browser window minus the height of the navbar:
+
+
 			$(".contentSegment").css("min-height", $(window).height() - $("#mainNavbar").height());
 
 			// When the browser window is resized, the content segment height is adjusted once more:
@@ -54,10 +56,13 @@ angular.module("mainModule")
 			}
 		};
 
-
-/*
-		
-*/
+		$scope.isLastSegment = function(index) {
+			if(index === $scope.contentSections.length - 1) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 
 		var hamburgerExpanded = false;
 
@@ -174,31 +179,43 @@ angular.module("mainModule")
 				id: "landingPage",
 				title: "Landing Page",
 				url: "http://landingpage.comyr.com/",
-				image: "../images/wordsToLiveBy.png"
+				image: "../images/mortgage-Cropped.jpg"
 			},
 			{
-				id: "trafficDash",
-				title: "Words to Live By",
-				url: "http://codepen.io/pacificLiving/full/ZGPeZg/",
-				image: "../images/wordsToLiveBy.png"
+				id: "comingSoon1",
+				title: "Coming Soon!",
+				url: "",
+				image: "../images/blueprint-Cropped.jpg"
 			},
 			{
-				id: "weather",
-				title: "Landing Page",
-				url: "http://landingpage.comyr.com/",
-				image: "../images/wordsToLiveBy.png"
+				id: "comingSoon2",
+				title: "Coming Soon!",
+				url: "",
+				image: "../images/blueprint-Cropped.jpg"
 			},
 			{
-				id: "twitch",
-				title: "Words to Live By",
-				url: "http://codepen.io/pacificLiving/full/ZGPeZg/",
-				image: "../images/wordsToLiveBy.png"
+				id: "comingSoon3",
+				title: "Coming Soon!",
+				url: "",
+				image: "../images/blueprint-Cropped.jpg"
 			},
 			{
-				id: "poll",
-				title: "Landing Page",
-				url: "http://landingpage.comyr.com/",
-				image: "../images/wordsToLiveBy.png"
+				id: "comingSoon4",
+				title: "Coming Soon!",
+				url: "",
+				image: "../images/blueprint-Cropped.jpg"
+			},
+			{
+				id: "comingSoon5",
+				title: "Coming Soon!",
+				url: "",
+				image: "../images/blueprint-Cropped.jpg"
+			},
+			{
+				id: "comingSoon6",
+				title: "Coming Soon!",
+				url: "",
+				image: "../images/blueprint-Cropped.jpg"
 			}
 		];
 		
@@ -254,5 +271,7 @@ angular.module("mainModule")
 		}
 
 		$scope.startInterval();
+
+		$scope.todaysDate = new Date();
 
 	});

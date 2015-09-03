@@ -4,12 +4,60 @@
 		"selected_items":
 		[
 			[
+				"content",
+				"contentSections"
+			],
+			[
+				"conten",
+				"contentSegment"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
 				"curren",
-				"currentContentSectionId"
+				"currentAboutMeIndex"
 			],
 			[
 				"curre",
+				"currentAboutMeIndex"
+			],
+			[
+				"currentAboutMe",
+				"currentAboutMeIndex"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"interval",
+				"intervalPromise"
+			],
+			[
+				"current",
 				"currentContentSectionId"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"an",
+				"angular"
 			],
 			[
 				"ha",
@@ -28,20 +76,12 @@
 				"favMovie"
 			],
 			[
-				"current",
-				"currentAboutMeIndex"
-			],
-			[
 				"background",
 				"background-color"
 			],
 			[
 				"border",
 				"border-top"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"font",
@@ -60,10 +100,6 @@
 				"text-decoration"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"conte",
 				"contentSegmentPositions"
 			],
@@ -74,10 +110,6 @@
 			[
 				"con",
 				"contentSegmentPositions"
-			],
-			[
-				"back",
-				"background-repeat"
 			],
 			[
 				"marg",
@@ -102,10 +134,6 @@
 			[
 				"filter",
 				"filterInstance"
-			],
-			[
-				"interval",
-				"intervalCounter"
 			],
 			[
 				"mock",
@@ -211,7 +239,7 @@
 			"file": "kylecorbelli.html",
 			"settings":
 			{
-				"buffer_size": 2662,
+				"buffer_size": 3040,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,7 +247,7 @@
 			"file": "views/home.html",
 			"settings":
 			{
-				"buffer_size": 560,
+				"buffer_size": 587,
 				"line_ending": "Windows"
 			}
 		},
@@ -227,7 +255,7 @@
 			"file": "views/about.html",
 			"settings":
 			{
-				"buffer_size": 252,
+				"buffer_size": 571,
 				"line_ending": "Windows"
 			}
 		},
@@ -243,7 +271,15 @@
 			"file": "js/modules/mainModule.js",
 			"settings":
 			{
-				"buffer_size": 1735,
+				"buffer_size": 47,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/footer.html",
+			"settings":
+			{
+				"buffer_size": 145,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,15 +287,7 @@
 			"file": "js/controllers/mainController.js",
 			"settings":
 			{
-				"buffer_size": 4954,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/directives/scrollArrowDirective.js",
-			"settings":
-			{
-				"buffer_size": 273,
+				"buffer_size": 7753,
 				"line_ending": "Windows"
 			}
 		},
@@ -267,7 +295,7 @@
 			"file": "views/scrollUp.html",
 			"settings":
 			{
-				"buffer_size": 134,
+				"buffer_size": 136,
 				"line_ending": "Windows"
 			}
 		},
@@ -275,7 +303,7 @@
 			"file": "views/scrollDown.html",
 			"settings":
 			{
-				"buffer_size": 164,
+				"buffer_size": 166,
 				"line_ending": "Windows"
 			}
 		},
@@ -283,7 +311,7 @@
 			"file": "css/customStyle.css",
 			"settings":
 			{
-				"buffer_size": 2491,
+				"buffer_size": 3911,
 				"line_ending": "Windows"
 			}
 		},
@@ -292,6 +320,14 @@
 			"settings":
 			{
 				"buffer_size": 125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/contact.html",
+			"settings":
+			{
+				"buffer_size": 14,
 				"line_ending": "Windows"
 			}
 		}
@@ -372,6 +408,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Kyle/Google Drive/Web Development/Portfolio Website/js/directives/scrollArrowDirective.js",
 		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/rachael.js",
 		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/kyle.js",
 		"/C/Users/Kyle/Google Drive/Web Development/nodeNewBoston/movies.js",
@@ -498,8 +535,7 @@
 		"/C/Users/Kyle/Documents/angularjs/formsControllers.js",
 		"/C/Users/Kyle/Documents/angularjs/formsMainModule.js",
 		"/C/Users/Kyle/Documents/angularjs/forms.css",
-		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/index.html",
-		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/js/script.js"
+		"/C/Users/Kyle/Google Drive/Web Development/Maps/public_html/index.html"
 	],
 	"find":
 	{
@@ -514,9 +550,17 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"hover",
+			"rgba",
+			"tops",
+			"#777",
+			"#F8F8F8",
+			"navL",
+			"li",
+			"));",
 			"$scope.currentContentSectionId",
 			"$scope.hamburgerExpanded",
 			"gray",
@@ -544,6 +588,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"green",
+			"blue",
 			"currentContentSectionId",
 			"hamburgerExpanded",
 			"th",
@@ -566,15 +612,15 @@
 					"file": "kylecorbelli.html",
 					"settings":
 					{
-						"buffer_size": 2662,
+						"buffer_size": 3040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1639,
-								1639
+								2264,
+								2264
 							]
 						],
 						"settings":
@@ -583,7 +629,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 826.0,
+						"translation.y": 1346.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -593,15 +639,15 @@
 					"file": "views/home.html",
 					"settings":
 					{
-						"buffer_size": 560,
+						"buffer_size": 587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								159,
-								159
+								569,
+								576
 							]
 						],
 						"settings":
@@ -619,15 +665,15 @@
 					"file": "views/about.html",
 					"settings":
 					{
-						"buffer_size": 252,
+						"buffer_size": 571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								571,
+								571
 							]
 						],
 						"settings":
@@ -671,76 +717,15 @@
 					"file": "js/modules/mainModule.js",
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 47,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1057,
-								1057
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 145.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "js/controllers/mainController.js",
-					"settings":
-					{
-						"buffer_size": 4954,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1750,
-								1750
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 271.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/directives/scrollArrowDirective.js",
-					"settings":
-					{
-						"buffer_size": 273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
+								41,
+								41
 							]
 						],
 						"settings":
@@ -753,21 +738,81 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
-					"buffer": 7,
-					"file": "views/scrollUp.html",
+					"buffer": 5,
+					"file": "views/footer.html",
 					"settings":
 					{
-						"buffer_size": 134,
+						"buffer_size": 145,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/controllers/mainController.js",
+					"settings":
+					{
+						"buffer_size": 7753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4819,
+								4821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3721.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/scrollUp.html",
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
 							]
 						],
 						"settings":
@@ -785,15 +830,15 @@
 					"file": "views/scrollDown.html",
 					"settings":
 					{
-						"buffer_size": 164,
+						"buffer_size": 166,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								164,
-								164
+								70,
+								117
 							]
 						],
 						"settings":
@@ -811,15 +856,15 @@
 					"file": "css/customStyle.css",
 					"settings":
 					{
-						"buffer_size": 2491,
+						"buffer_size": 3911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1852,
-								1852
+								3819,
+								3819
 							]
 						],
 						"settings":
@@ -828,7 +873,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3925.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -852,6 +897,32 @@
 						"settings":
 						{
 							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "views/contact.html",
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -890,7 +961,7 @@
 		"cols":
 		[
 			0.0,
-			0.424452468724,
+			0.515198801597,
 			1.0
 		],
 		"rows":
@@ -933,6 +1004,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }

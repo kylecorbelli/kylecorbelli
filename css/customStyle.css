@@ -1,6 +1,6 @@
 body {
 	color: black;
-
+	background-color: #222222;
 }
 
 nav {
@@ -154,6 +154,25 @@ video#bgvid {
 	width: 250px;
 	height: 200px;
 	margin: 15px;
+	padding: 10px;
+	background-color: #222222;
+	color: white;
+	border: none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit- box-shadow: 1px 1px 6px 1px black;
+	-moz- box-shadow: 1px 1px 6px 1px black;
+	box-shadow: 1px 1px 6px 1px black;
+}
+
+.project:hover {
+	-webkit- box-shadow: 0px 0px 6px 1px white;
+	-moz- box-shadow: 0px 0px 6px 1px white;
+	box-shadow: 0px 0px 6px 1px white;
+}
+
+.project p {
+	margin-top: 10px;
 }
 
 #contact {
@@ -173,7 +192,7 @@ video#bgvid {
 }
 
 .aboutSkip:hover {
-	color: #222222;
+	color: #444444;
 }
 
 button i {
@@ -189,6 +208,11 @@ button i {
 }
 
 .contentSegment {
+	padding: 20px 5px;
+	position: relative;
+}
+
+.finalSegment {
 	padding: 20px 5px;
 	position: relative;
 }
@@ -211,4 +235,40 @@ a:hover {
 	color: black;
 }
 
+#formBack {
+	background-color: rgba(219, 212, 184, 0.90);
+	padding: 10px;
+}
 
+.warning {
+	color: blue;
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+textarea {
+	resize: none;
+}
+
+#contactButton {
+	background-color: #222222;
+	color: white;
+}
+
+#theFooter {
+	background-color: #222222;
+	color: white;
+	min-height: 50px;
+	padding: 17px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	box-sizing: border-box;
+	-webkit- box-sizing: border-box;
+	-mox- box-sizing: border-box;
+}

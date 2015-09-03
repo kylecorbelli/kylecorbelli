@@ -1,0 +1,41 @@
+<div class="col-sm-3 hidden-xs"></div>
+<div class="col-sm-6 text-left" id="formBack">
+	<form name="contactForm" novalidate ng-submit="addUser(newUser)">
+		<div class="form-group">
+			<label>From (Your Email Address):</label>
+			<input class="form-control" name="emailFrom" type="email" ng-model="from" required />
+			<div ng-show="contactForm.emailFrom.$invalid && contactForm.emailFrom.$dirty">
+				<span class="warning" ng-show="contactForm.emailFrom.$error.email">
+					* Please enter a valid email address.
+				</span>
+				<span class="error" ng-show="contactForm.emailFrom.$error.required">
+					* Please enter an email address.
+				</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label>Subject:</label>
+			<input class="form-control" name="subjectLine" type="text" ng-model="subject" required />
+			<div ng-show="contactForm.subjectLine.$invalid && contactForm.subjectLine.$dirty">
+				<span class="error" ng-show="contactForm.subjectLine.$error.required">
+					* Please enter a subject.
+				</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label>Message:</label>
+			<div>
+				<textarea name="messageInput" class="form-control" ng-model="message" required></textarea>
+				<div ng-show="contactForm.messageInput.$invalid && contactForm.messageInput.$dirty">
+					<span class="error" ng-show="contactForm.messageInput.$error.required">
+						* Please enter a message.
+					</span>
+				</div>
+			</div>
+		</div>
+		<button class="btn btn-block" id="contactButton" ng-disabled="contactForm.$invalid">
+			Contact Kyle
+		</button>
+	</form>
+
+</div class="col-sm-3 hidden-xs"></div>

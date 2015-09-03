@@ -53,10 +53,9 @@
 			<div ng-include="'views/scrollUp.html'"></div>
 			<div ng-include="section.view"></div>
 			<div ng-include="'views/scrollDown.html'"></div>
+			<div ng-include="'views/footer.html'" ng-show="isLastSegment($index)" id="theFooter"></div>
 		</div>
-
 	</div>
-
 </body>
 
 </html>
