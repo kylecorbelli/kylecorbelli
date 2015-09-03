@@ -1,0 +1,21 @@
+body {
+	background-image: url("../images/notepad-Cropped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#emailConf {
+	margin-top: 20%;
+	padding: 20px;
+	background-color: rgba(219, 212, 184, 0.90);
+}
+
+#emailOkay {
+	background-color: #222222;
+	color: white;
+	margin: 15px;
+}
+
+#emailOkay:hover {
+	background-color: black;	
+}

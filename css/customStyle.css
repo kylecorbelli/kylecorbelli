@@ -122,21 +122,6 @@ h1 {
 	background-repeat: no-repeat;
 }
 
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url("../images/macbook.jpg") no-repeat;
-    background-size: cover; 
-}
-
 #about {
 	background-image: url("../images/macbook-Cropped.jpg");
 	background-size: cover;
@@ -199,14 +184,6 @@ button i {
 	color: black;
 }
 
-.active {
-	color: blue;
-}
-
-.active a {
-	color: blue;
-}
-
 .contentSegment {
 	padding: 20px 5px;
 	position: relative;
@@ -259,6 +236,10 @@ textarea {
 	color: white;
 }
 
+#contactButton:hover {
+	background-color: black;
+}
+
 #theFooter {
 	background-color: #222222;
 	color: white;
@@ -272,3 +253,4 @@ textarea {
 	-webkit- box-sizing: border-box;
 	-mox- box-sizing: border-box;
 }
+
