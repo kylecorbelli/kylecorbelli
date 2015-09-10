@@ -222,7 +222,7 @@ angular.module("mainModule")
 		$scope.aboutMe = [
 			"Welcome. My name is Kyle and I'm a California software developer.",
 			"I'm a UC Berkeley mathematics graduate with applications in computational statistics.",
-			"I build with all things JavaScript: AngularJS, jQuery, Node.js and Express.js.",
+			"I custom build applications with JavaScript (including AngularJS, jQuery, jQuery Mobile, jQuery UI), PHP, MySQL and, of course, HTML and CSS (including Bootstrap and MDL).",
 			"I'm currently working for a local non-profit, building an AngularJS-based, Google Maps API-enhanced web app to help users locate animal-cruelty-free restaurants."
 		];
 
